@@ -1,0 +1,433 @@
+{
+    "customers": {
+        "9964-7876": {
+            "name": "Robert Banks",
+            "address": "421 Amanda Subway\nSydney, NSW, 2000",
+            "credit_card": {
+                "number": "2658157824796048",
+                "code": "308",
+                "expiry": "05/32"
+            },
+            "membership_number": null
+        },
+        "(02)51123318": {
+            "name": "Teresa Stanley",
+            "address": "153 Spears Parade\nSydney, NSW, 2000",
+            "credit_card": {
+                "number": "5463186784832707",
+                "code": "075",
+                "expiry": "12/31"
+            },
+            "membership_number": null
+        },
+        "(02) 4025 4401": {
+            "name": "Mr. Henry Chavez",
+            "address": "155 Garcia Bridge\nSydney, NSW, 2000",
+            "credit_card": {
+                "number": "2274910816102938",
+                "code": "531",
+                "expiry": "05/33"
+            },
+            "membership_number": null
+        },
+        "+61 407 319 632": {
+            "name": "Eddie Lee",
+            "address": "931 Bradley Follow\nSydney, NSW, 2000",
+            "credit_card": {
+                "number": "2702445182678890",
+                "code": "195",
+                "expiry": "06/33"
+            },
+            "membership_number": null
+        },
+        "(03)12200164": {
+            "name": "Mary Roberts",
+            "address": "Apt. 284 091 Peterson River\nSydney, NSW, 2000",
+            "credit_card": {
+                "number": "5171064542541378",
+                "code": "094",
+                "expiry": "06/30"
+            },
+            "membership_number": null
+        }
+    },
+    "restaurants": {
+        "(02)-7919-0326": {
+            "name": "Tasty Bites",
+            "cuisine": "Italian",
+            "address": "Flat 21 0 Anne Subway\nDavidtown, NSW, 2000",
+            "menu": {
+                "Margherita Pizza": {
+                    "description": "Classic Italian pizza topped with tomato, mozzarella, and basil.",
+                    "price": 15.99
+                },
+                "Caesar Salad": {
+                    "description": "Crisp romaine lettuce, parmesan cheese, croutons, and Caesar dressing.",
+                    "price": 9.99
+                }
+            },
+            "orders": [
+                {
+                    "items": {
+                        "Margherita Pizza": 1,
+                        "Caesar Salad": 1
+                    },
+                    "customer": "9964-7876",
+                    "notes": null,
+                    "status": "preparing"
+                },
+                {
+                    "items": {
+                        "Margherita Pizza": 1,
+                        "Caesar Salad": 1
+                    },
+                    "customer": "9964-7876",
+                    "notes": null,
+                    "status": "preparing"
+                }
+            ]
+        },
+        "+61 409 217 912": {
+            "name": "Spice Garden",
+            "cuisine": "Indian",
+            "address": "6 Corey Circle\nEast Sean, NSW, 2000",
+            "menu": {
+                "Butter Chicken": {
+                    "description": "Tender chicken cooked in a creamy tomato sauce with butter and spices.",
+                    "price": 14.99
+                },
+                "Naan Bread": {
+                    "description": "Traditional Indian bread baked in a tandoor oven.",
+                    "price": 3.99
+                }
+            },
+            "orders": [
+                {
+                    "items": {
+                        "Butter Chicken": 1,
+                        "Naan Bread": 1
+                    },
+                    "customer": "(02)51123318",
+                    "notes": null,
+                    "status": "preparing"
+                },
+                {
+                    "items": {
+                        "Butter Chicken": 1,
+                        "Naan Bread": 1
+                    },
+                    "customer": "(02)51123318",
+                    "notes": null,
+                    "status": "preparing"
+                }
+            ]
+        },
+        "(03)-5411-0737": {
+            "name": "Sushi Junction",
+            "cuisine": "Japanese",
+            "address": "Apt. 654 947 Melissa Alleyway\nPort Nathaniel, NSW, 2000",
+            "menu": {
+                "Sashimi Platter": {
+                    "description": "Assorted slices of fresh raw fish served with soy sauce and wasabi.",
+                    "price": 29.99
+                },
+                "Chicken Teriyaki": {
+                    "description": "Grilled chicken glazed with a sweet and savory teriyaki sauce.",
+                    "price": 18.99
+                }
+            },
+            "orders": [
+                {
+                    "items": {
+                        "Sashimi Platter": 1,
+                        "Chicken Teriyaki": 1
+                    },
+                    "customer": "(03)12200164",
+                    "notes": null,
+                    "status": "preparing"
+                },
+                {
+                    "items": {
+                        "Sashimi Platter": 1,
+                        "Chicken Teriyaki": 1
+                    },
+                    "customer": "(03)12200164",
+                    "notes": null,
+                    "status": "preparing"
+                }
+            ]
+        },
+        "(02)-9253-6421": {
+            "name": "Noodle House",
+            "cuisine": "Asian",
+            "address": "2 Kemp Lees\nLake Michaelview, NSW, 2000",
+            "menu": {
+                "Pad Thai": {
+                    "description": "Stir-fried rice noodles with shrimp, tofu, eggs, bean sprouts, and peanuts.",
+                    "price": 14.99
+                },
+                "Vietnamese Pho": {
+                    "description": "Traditional Vietnamese soup with rice noodles, beef, and herbs.",
+                    "price": 12.99
+                }
+            },
+            "orders": [
+                {
+                    "items": {
+                        "Pad Thai": 1,
+                        "Vietnamese Pho": 1
+                    },
+                    "customer": "(03)12200164",
+                    "notes": null,
+                    "status": "preparing"
+                },
+                {
+                    "items": {
+                        "Pad Thai": 1,
+                        "Vietnamese Pho": 1
+                    },
+                    "customer": "(03)12200164",
+                    "notes": null,
+                    "status": "preparing"
+                }
+            ]
+        },
+        "+61.434.023.151": {
+            "name": "Seafood Haven",
+            "cuisine": "Seafood",
+            "address": "45/00 Thompson Trailer\nNew Randy, NSW, 2000",
+            "menu": {
+                "Fish and Chips": {
+                    "description": "Fresh fish fillets coated in batter and deep-fried, served with fries.",
+                    "price": 12.99
+                },
+                "Grilled Salmon": {
+                    "description": "Atlantic salmon fillet grilled to perfection and served with lemon butter sauce.",
+                    "price": 16.99
+                }
+            },
+            "orders": [
+                {
+                    "items": {
+                        "Fish and Chips": 1,
+                        "Grilled Salmon": 1
+                    },
+                    "customer": "(03)12200164",
+                    "notes": null,
+                    "status": "preparing"
+                },
+                {
+                    "items": {
+                        "Fish and Chips": 1,
+                        "Grilled Salmon": 1
+                    },
+                    "customer": "(03)12200164",
+                    "notes": null,
+                    "status": "preparing"
+                }
+            ]
+        },
+        "+61.2.8649.7294": {
+            "name": "Thai Delight",
+            "cuisine": "Thai",
+            "address": "225 Brian Brace\nNew Lori, NSW, 2000",
+            "menu": {
+                "Green Curry": {
+                    "description": "Thai curry made with green curry paste, coconut milk, vegetables, and meat.",
+                    "price": 12.99
+                },
+                "Mango Sticky Rice": {
+                    "description": "Sweet sticky rice served with fresh mango slices and coconut milk.",
+                    "price": 6.99
+                }
+            },
+            "orders": [
+                {
+                    "items": {
+                        "Green Curry": 1,
+                        "Mango Sticky Rice": 1
+                    },
+                    "customer": "(03)12200164",
+                    "notes": null,
+                    "status": "preparing"
+                },
+                {
+                    "items": {
+                        "Green Curry": 1,
+                        "Mango Sticky Rice": 1
+                    },
+                    "customer": "(03)12200164",
+                    "notes": null,
+                    "status": "preparing"
+                }
+            ]
+        },
+        "83791208": {
+            "name": "Gourmet Grill",
+            "cuisine": "Grill",
+            "address": "328 Lynn Colonnade\nWilliamsshire, NSW, 2000",
+            "menu": {
+                "T-bone Steak": {
+                    "description": "Juicy T-bone steak grilled to perfection.",
+                    "price": 24.99
+                },
+                "Grilled Prawns": {
+                    "description": "Large prawns marinated and grilled to perfection.",
+                    "price": 18.99
+                }
+            },
+            "orders": [
+                {
+                    "items": {
+                        "T-bone Steak": 1,
+                        "Grilled Prawns": 1
+                    },
+                    "customer": "9964-7876",
+                    "notes": null,
+                    "status": "preparing"
+                },
+                {
+                    "items": {
+                        "T-bone Steak": 1,
+                        "Grilled Prawns": 1
+                    },
+                    "customer": "9964-7876",
+                    "notes": null,
+                    "status": "preparing"
+                }
+            ]
+        },
+        "8712-0868": {
+            "name": "Mexican Fiesta",
+            "cuisine": "Mexican",
+            "address": "786 Novak Mount\nJakebury, NSW, 2000",
+            "menu": {
+                "Burrito Bowl": {
+                    "description": "Rice, beans, grilled chicken or beef, salsa, cheese, and guacamole.",
+                    "price": 12.99
+                }
+            },
+            "orders": [
+                {
+                    "items": {
+                        "Burrito Bowl": 1
+                    },
+                    "customer": "(02)51123318",
+                    "notes": null,
+                    "status": "preparing"
+                },
+                {
+                    "items": {
+                        "Burrito Bowl": 1
+                    },
+                    "customer": "(02)51123318",
+                    "notes": null,
+                    "status": "preparing"
+                }
+            ]
+        },
+        "(02)-5112-4449": {
+            "name": "Burger Barn",
+            "cuisine": "American",
+            "address": "38 Roger Turnpike\nPort Vivian, NSW, 2000",
+            "menu": {
+                "Classic Cheeseburger": {
+                    "description": "Beef patty, cheese, lettuce, tomato, and pickles on a bun.",
+                    "price": 9.99
+                },
+                "Crispy Chicken Burger": {
+                    "description": "Crispy fried chicken breast, lettuce, tomato, and mayonnaise on a bun.",
+                    "price": 11.99
+                }
+            },
+            "orders": [
+                {
+                    "items": {
+                        "Classic Cheeseburger": 1
+                    },
+                    "customer": "9964-7876",
+                    "notes": null,
+                    "status": "preparing"
+                },
+                {
+                    "items": {
+                        "Classic Cheeseburger": 1,
+                        "Crispy Chicken Burger": 1
+                    },
+                    "customer": "9964-7876",
+                    "notes": null,
+                    "status": "preparing"
+                }
+            ]
+        },
+        "(02)-7749-3265": {
+            "name": "Taco Stop",
+            "cuisine": "Mexican",
+            "address": "88 Gregory Bypass\nPort Destiny, NSW, 2000",
+            "menu": {
+                "Chicken Tacos": {
+                    "description": "Soft corn tortillas filled with grilled chicken, lettuce, tomato, and cheese.",
+                    "price": 8.99
+                },
+                "Beef Burrito": {
+                    "description": "Flour tortilla filled with seasoned ground beef, rice, beans, and cheese.",
+                    "price": 10.99
+                }
+            },
+            "orders": [
+                {
+                    "items": {
+                        "Chicken Tacos": 1,
+                        "Beef Burrito": 1
+                    },
+                    "customer": "9964-7876",
+                    "notes": null,
+                    "status": "preparing"
+                },
+                {
+                    "items": {
+                        "Chicken Tacos": 1,
+                        "Beef Burrito": 1
+                    },
+                    "customer": "9964-7876",
+                    "notes": null,
+                    "status": "preparing"
+                }
+            ]
+        },
+        "+61 401 919 100": {
+            "name": "Dumpling Delight",
+            "cuisine": "Chinese",
+            "address": "22 Happy Valley\nPort Erika, NSW, 2000",
+            "menu": {
+                "Steamed Pork Dumplings": {
+                    "description": "Delicate dumplings filled with seasoned pork, steamed to perfection.",
+                    "price": 11.99
+                },
+                "Chicken and Mushroom Fried Rice": {
+                    "description": "Fried rice with tender chicken, mushrooms, and vegetables.",
+                    "price": 13.99
+                }
+            },
+            "orders": [
+                {
+                    "items": {
+                        "Steamed Pork Dumplings": 1,
+                        "Chicken and Mushroom Fried Rice": 1
+                    },
+                    "customer": "(03)12200164",
+                    "notes": null,
+                    "status": "preparing"
+                },
+                {
+                    "items": {
+                        "Steamed Pork Dumplings": 1
+                    },
+                    "customer": "(03)12200164",
+                    "notes": null,
+                    "status": "preparing"
+                }
+            ]
+        }
+    }
+}
