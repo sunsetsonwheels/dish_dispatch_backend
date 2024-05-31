@@ -7,26 +7,28 @@ class MenuItem(BaseModel):
     price: float
 
 
-class OrderStatus(str, Enum):
-    preparing = "preparing"
-    delivering = "delivering"
-    completed = "completed"
-
-
-class Order(BaseModel):
-    items: dict[str, int]
-    customer: str
-    notes: str | None
-    status: OrderStatus
-
-
-class RestaurantResponse(BaseModel):
+class BaseRestaurant(BaseModel):
+    phone: str = Field(..., alias="_id")
     name: str
-    address: str
     cuisine: str
 
+    model_config = ConfigDict(populate_by_name=True)
 
-class Restaurant(RestaurantResponse):
+
+class Restaurant(BaseRestaurant):
+    address: str
     menu: dict[str, MenuItem]
-    orders: list[Order]
 
+class RestaurantInDB(Restaurant):
+    password: str
+
+class RestaurantsResponse(BaseModel):
+    restaurants: list[BaseRestaurant]
+    cuisines: list[str]
+
+class RestaurantRating(BaseModel):
+    average: float
+    recent: list[str]
+
+class RestaurantRevenue(BaseModel):
+    total: float

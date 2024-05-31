@@ -1,8 +1,7 @@
-from json import load
+from pymongo import MongoClient
 
-data = {"customers": [], "restaurants": []}
-
-with open("scripts/data-gen.json", "r") as f:
-    data = load(f)
-
-data["cuisines"] = [data["restaurants"][phone]["cuisine"] for phone in data["restaurants"]]
+db = MongoClient("mongodb://dish_dispatch:dish_dispatch@localhost:27017/dish_dispatch", tz_aware=True).dish_dispatch
+restaurants_col = db.restaurants
+customers_col = db.customers
+orders_col = db.orders
+orders_in_orders_col = db.orders_in_orders
